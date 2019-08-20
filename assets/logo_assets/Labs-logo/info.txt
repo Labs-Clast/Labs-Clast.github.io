@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Changa-Regular
+font link: https://www.fontsquirrel.com/fonts/changa
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+
+
+icon designer: Dulmid
+icon designer link: /DulMid
+        
+{"bg":"#68C60E","icon":"#374931","font":"#FFFFFF","slogan":"#ffffff"}
+      
