@@ -10,20 +10,31 @@
                 <div class="uk-container uk-container-expand">
                     <div uk-navbar>
 
-                        <ul class="uk-navbar-nav">
-                            <li class="uk-active"><a href="#">Active</a></li>
-                            <li>
-                                <a href="#">Parent</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="#">Item</a></li>
-                        </ul>
+                        <div class="uk-navbar-left">
+
+                            <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+
+                            <ul class="uk-navbar-nav">
+                                <li>
+                                    <a href="#">
+                                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                                        Features
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="uk-navbar-item">
+                                <div>Some <a href="#">Link</a></div>
+                            </div>
+
+                            <div class="uk-navbar-item">
+                                <form action="javascript:void(0)">
+                                    <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
+                                    <button class="uk-button uk-button-default">Button</button>
+                                </form>
+                            </div>
+
+                        </div>
 
                     </div>
                 </div>
