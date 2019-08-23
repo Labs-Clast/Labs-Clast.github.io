@@ -1,18 +1,71 @@
 
+/* Sticky Footer Classes */
+
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  #footer {
+    flex-shrink: 0; 
+  }
+
+
+/* Navbar Classes */
+
 #navbar-logo {
-    height:16%;
-    width:16%;
+    padding: 0;
+    height:17%;
+    width:17%;
 }
 
 .nb-color {
-    background-color:#eac67a;
+    background-color: #272727;
 }
 
-.bg-color {
-    background-color: #FFEECA;
+/* Color pallete */
+
+.bg-color-dark {
+    background-color: #272727;
 }
 
-body {
-    background-color: #FFEECA !important;
+.bg-color-grey {
+    background-color: #747474;
 }
-    
+
+.bg-color-orange {
+    background-color: #FF652f;
+}
+
+.bg-color-yellow {
+    background-color: #FFE400;
+}
+
+.bg-color-greensea {
+    background-color: #14A76C;
+}
+
+.text-color-dark {
+    color: #272727;
+}
+
+.text-color-grey {
+    color: #747474;
+}
+
+.text-color-orange {
+    color: #FF652f;
+}
+
+.text-color-yellow {
+    color: #FFE400;
+}
+
+.text-color-greensea {
+    color: #14A76C;
+}
