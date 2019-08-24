@@ -1,5 +1,5 @@
 ---
 layout: home
 permalink: /
-title: Clast Labs
+title: Home
 ---

@@ -2,9 +2,11 @@
 layout: default
 ---
 
-  {{ content }}
+{{ content }}
 
-  {%- if site.posts.size > 0 -%}
+
+{%- if site.posts.size > 0 -%}
+<!--
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -19,9 +21,123 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li
+      </li>
       {%- endfor -%}
+
+</ul>
+-->
+<ul>
+  {% for category in site.categories %}
+  {% if category == "opinion" %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+      {% for post in category.last %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
     </ul>
-  {%- endif -%}
+  </li>
+  {% endif%}
+  {% endfor %}
+</ul>
+<!--General section-->
+<!--Start catagories-->
+<!--Opinion-->
+<div class="my-3">
+  <div class="card-header-custom">Opinion</div>
+  <div class="card-group">
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail.">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--Exploiting-->
+<div class="my-3">
+  <div class="card-header-custom">Exploiting</div>
+  <div class="card-group">
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
 
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail.">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Programming-->
+<div class="my-3">
+  <div class="card-header-custom">Programming</div>
+  <div class="card-group">
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail.">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}
