@@ -6,138 +6,92 @@ layout: default
 
 
 {%- if site.posts.size > 0 -%}
-<!--
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
 
-</ul>
--->
-<ul>
-  {% for category in site.categories %}
-  {% if category == "opinion" %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
-      {% for post in category.last %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </li>
-  {% endif%}
-  {% endfor %}
-</ul>
+
+
 <!--General section-->
 <!--Start catagories-->
+{% for tag in site.categories %}
 <!--Opinion-->
+{% if tag[0] == "opinion" %}
 <div class="my-3">
-  <div class="card-header-custom">Opinion</div>
+  <div class="card-header-custom bg-yellow">Opinion</div>
   <div class="card-group">
-    <div class="card">
+    {% assign pages_list = tag[1] %}
+    {% assign post_count = 0 %}
+    {% for post in pages_list %}
+    {% assign post_count = post_count | plus: 1 %}
+    {% if post_count == 5 %}
+    {% break %}
+    {% endif %}
+    <div class="card ">
       <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text"> {{ post.description }}</p>
+        <p class="card-text"><small class="text-muted">{{ post.date }}</small></p>
       </div>
     </div>
-    <div class="card">
-      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail.">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
   </div>
 </div>
+{% endif %}
 
 <!--Exploiting-->
+{% if tag[0] == "exploiting" %}
 <div class="my-3">
-  <div class="card-header-custom">Exploiting</div>
+  <div class="card-header-custom bg-greensea">Exploiting</div>
   <div class="card-group">
+      {% assign pages_list = tag[1] %}
+      {% assign post_count = 0 %}
+      {% for post in pages_list %}
+      {% assign post_count = post_count | plus: 1 %}
+      {% if post_count == 5 %}
+      {% break %}
+      {% endif %}
     <div class="card">
       <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text"> {{ post.description }}</p>
+        <p class="card-text"><small class="text-muted">{{ post.date }}</small></p>
       </div>
     </div>
-    <div class="card">
-
-      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail.">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
   </div>
 </div>
+{% endif %}
+
 <!--Programming-->
+{% if tag[0] == "programming" %}
 <div class="my-3">
-  <div class="card-header-custom">Programming</div>
+  <div class="card-header-custom bg-orange">Programming</div>
   <div class="card-group">
+      {% assign pages_list = tag[1] %}
+      {% assign post_count = 0 %}
+      {% for post in pages_list %}
+      {% assign post_count = post_count | plus: 1 %}
+      {% if post_count == 5 %}
+      {% break %}
+      {% endif %}
     <div class="card">
       <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text"> {{ post.description }}</p>
+        <p class="card-text"><small class="text-muted">{{ post.date }}</small></p>
       </div>
     </div>
-    <div class="card">
-
-      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail.">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="{{ "/assets/post_thumbmails/test.png" | relative_url }}" class="card-img-top" alt="Post Thumbmail">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
   </div>
 </div>
+{% endif %}
+
+{% endfor %}
 {%- endif -%}

@@ -85,6 +85,29 @@ html, body {
     color: #14A76C;
 }
 
+/* Borders */
+
+.border-black {
+    border-color: #272727;
+}
+
+.border-grey {
+    border-color: #747474;
+}
+
+.border-ornage {
+    border-color: #FF652f;
+}
+
+.border-yellow {
+    border-color: #FFE400;
+}
+
+.border-greensea {
+    border-color: #14A76C;
+}
+
+
 /* Links/Button */
 
 .lb-orange:link, .lb-orange:visited {
@@ -93,6 +116,9 @@ html, body {
 
 .lb-orange:hover, .lb-orange:active {
     color: #FF652f;
+    border-bottom-color: #FF652f;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
 }
 
 .lb-yellow:link, .lb-yellow:visited {
@@ -101,6 +127,9 @@ html, body {
 
 .lb-yellow:hover, .lb-yellow:active {
     color: #FFE400;
+    border-bottom-color: #FFE400;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
 }
 
 .lb-greensea:link, .lb-greensea:visited {
@@ -109,4 +138,7 @@ html, body {
 
 .lb-greensea:hover, .lb-greensea:active {
     color: #14A76C;
+    border-bottom-color: #14A76C;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
 }
