@@ -30,42 +30,70 @@ html, body {
 
 /* Color pallete */
 
-.bg-color-dark {
+/* background color*/
+.bg-black {
     background-color: #272727;
 }
 
-.bg-color-grey {
+.bg-grey {
     background-color: #747474;
 }
 
-.bg-color-orange {
+.bg-orange {
     background-color: #FF652f;
 }
 
-.bg-color-yellow {
+.bg-yellow {
     background-color: #FFE400;
 }
 
-.bg-color-greensea {
+.bg-greensea {
     background-color: #14A76C;
 }
 
-.text-color-dark {
+/* text color */
+.text-black {
     color: #272727;
 }
 
-.text-color-grey {
+.text-grey {
     color: #747474;
 }
 
-.text-color-orange {
+.text-orange {
     color: #FF652f;
 }
 
-.text-color-yellow {
+.text-yellow {
     color: #FFE400;
 }
 
-.text-color-greensea {
+.text-greensea {
+    color: #14A76C;
+}
+
+/* Links/Button */
+
+.lb-orange:link, .lb-orange:visited {
+    color: #f8f9fa;
+}
+
+.lb-orange:hover, .lb-orange:active {
+    color: #FF652f;
+}
+
+.lb-yellow:link, .lb-yellow:visited {
+    color: #f8f9fa;
+}
+
+.lb-yellow:hover, .lb-yellow:active {
+    color: #FFE400;
+}
+
+.lb-greensea:link, .lb-greensea:visited {
+    color: #f8f9fa;
+}
+
+.lb-greensea:hover, .lb-greensea:active {
     color: #14A76C;
 }
