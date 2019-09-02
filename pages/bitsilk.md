@@ -42,52 +42,11 @@ FastMoneyBaller:
 #### Possibly associated investment companies registerd in the UK:
 &nbsp;
 
-###### BITSILK INVESTMENTS LIMITED
-
-{:class="table table-bordered"}
-|---|---|
-|Company number                     |12051614   |
-|Registered office address          | Flat 22 Marylebone Road, London, England, NW1 5HE|
-|Company type                       |Private limited Company   |
-|Incorporated on                    |14 June 2019    |
-|Accounts                           |First accounts made up to 30 June 2020 due by 14 March 2021   |
-|Confirmation statement             |First statement date 13 June 2020 due by 27 June 2020   |
-|Nature of business (SIC)           |64304 - Activities of open-ended investment compani   |
-|Name                               |Shaan Manoj BHARWANI       |
-|Correspondence address             |Flat 22, Marylebone Road, London, England, NW1 5HE   |
-|Date of birth                      |February 1998     |
-|Appointed on                       |14 June 2019 |
-|Nationality                        |British   |
-|Country of residence               |England |
-|Occupation                         |Analyst   |
-|Role (ACTIVE)                      |Director   |
-
-&nbsp;
-
-###### THE WOKE INVESTOR LTD
-
-{:class="table table-bordered"}
-|---|---|
-|Company number                     |12145459   |
-|Registered office address          | Flat 22 Marylebone Road, London, England, NW1 5HE|
-|Company type                       |Private limited Company   |
-|Incorporated on                    |8 August 2019    |
-|Accounts                           |First accounts made up to 31 August 2020 due by 8 May 2021   |
-|Confirmation statement             |First statement date 7 August 2020 due by 21 August 2020   |
-|Nature of business (SIC)           |58142 - Publishing of consumer and business journals and periodicals   |
-|Name                               |Shaan Manoj BHARWANI       |
-|Correspondence address             |Flat 22, Marylebone Road, London, England, NW1 5HE   |
-|Date of birth                      |February 1998     |
-|Appointed on                       |14 June 2019 |
-|Nationality                        |British   |
-|Country of residence               |England |
-|Occupation                         |Analyst   |
-|Role (ACTIVE)                      |Director   |
-
-&nbsp;
+***Update 02/09/2019:*** Removed for privacy reasons till further noitce.
 
 ***
 &nbsp;
+
 
 #### Contact us!
 
