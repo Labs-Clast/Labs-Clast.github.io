@@ -31,12 +31,6 @@ FastMoneyBaller:
  - Registered the "BITSILK INVESTMENTS"and "The Woke Investor" company (not associated with actual investment group)
 
 
-Possibly:
-(No proof or link)
- - SantiTrading
-
-
-
 &nbsp;
 
 ***
