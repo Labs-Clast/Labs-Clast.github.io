@@ -24,12 +24,14 @@ Adam:
  - Owner bitsilk server
  - Owner investment group
 
+
 FastMoneyBaller:
 (Working together to solve, not actually involved)
  - Special role in DC server
  - Known as "The Woke Investor" on medium and more
  - Registered the "BITSILK INVESTMENTS"and "The Woke Investor" company (not associated with actual investment group)
 
+****Update 02/09/2019***  FastMoneyBaller tried to get Adam to become CEO of the investment company, but he didn't give any details or agree.
 
 &nbsp;
 
