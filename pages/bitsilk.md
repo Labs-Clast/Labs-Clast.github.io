@@ -4,133 +4,106 @@ title: Bitsilk fraud investigation
 permalink: /bitsilk
 ---
 
-This is an investigation done by Clast Team about an BTC investment group exit scam known as "Bitsilk Investment group".
+This is an investigation done by the Clast Team about a BTC investment group exit scam known as "Bitsilk Investment group".
 
-- Clast
+-- Abdos
 
-###Collected data
+&nbsp;
 
---BITSILK INVESTMENT GROUP EXITSCAM INVESTIGATION--
- 
-Suspected persons with role:
+***
+
+# Harvested data
+
+&nbsp;
+
+#### Suspected persons with role:
+
+&nbsp;
 
 Adam: 
  - Owner bitsilk server
  - Owner investment group
- - Registered 2 investment companies in the uk:
 
-FastBaller:
- - Special role
- - Known with the name "The woke Investor", which is registerd as a company by the same guy as "BITSILK INVESTMENTS"
+FastMoneyBaller:
+(Working together to solve, not actually involved)
+ - Special role in DC server
  - Known as "The Woke Investor" on medium and more
+ - Registered the "BITSILK INVESTMENTS"and "The Woke Investor" company (not associated with actual investment group)
+
 
 Possibly:
-SantiTrading
+(No proof or link)
+ - SantiTrading
 
------------------------------------------------------------------------------------------
-
-Associated investment companies registerd in the UK:
-
-***
-
-BITSILK INVESTMENTS LIMITED
-Company number: 12051614
-
-Registered office address
-Flat 22 Marylebone Road, London, England, NW1 5HE
-
-Company type
-Private limited Company
-
-Incorporated on
-14 June 2019
-
-Accounts
-First accounts made up to 30 June 2020 
-due by 14 March 2021
-
-Confirmation statement
-First statement date 13 June 2020 
-due by 27 June 2020
-
-Nature of business (SIC)
-64304 - Activities of open-ended investment compani
-
-Name
-Shaan Manoj BHARWANI
-
-Correspondence address
-Flat 22, Marylebone Road, London, England, NW1 5HE
-
-Date of birth
-February 1998
-
-Appointed on
-14 June 2019
-
-Nationality
-British
-
-Country of residence
-England
-
-Occupation
-Analyst
-
-Role ACTIVE
-Director
+&nbsp;
 
 ***
+&nbsp;
+
+#### Associated investment companies registerd in the UK:
+&nbsp;
+
+###### BITSILK INVESTMENTS LIMITED
+
+{:class="table table-bordered"}
+|---|---|
+|Company number                     |12051614   |
+|Registered office address          | Flat 22 Marylebone Road, London, England, NW1 5HE|
+|Company type                       |Private limited Company   |
+|Incorporated on                    |14 June 2019    |
+|Accounts                           |First accounts made up to 30 June 2020 due by 14 March 2021   |
+|Confirmation statement             |First statement date 13 June 2020 due by 27 June 2020   |
+|Nature of business (SIC)           |64304 - Activities of open-ended investment compani   |
+|Name                               |Shaan Manoj BHARWANI       |
+|Correspondence address             |Flat 22, Marylebone Road, London, England, NW1 5HE   |
+|Date of birth                      |February 1998     |
+|Appointed on                       |14 June 2019 |
+|Nationality                        |British   |
+|Country of residence               |England |
+|Occupation                         |Analyst   |
+|Role (ACTIVE)                      |Director   |
+
+&nbsp;
+
+###### THE WOKE INVESTOR LTD
+
+{:class="table table-bordered"}
+|---|---|
+|Company number                     |12145459   |
+|Registered office address          | Flat 22 Marylebone Road, London, England, NW1 5HE|
+|Company type                       |Private limited Company   |
+|Incorporated on                    |8 August 2019    |
+|Accounts                           |First accounts made up to 31 August 2020 due by 8 May 2021   |
+|Confirmation statement             |First statement date 7 August 2020 due by 21 August 2020   |
+|Nature of business (SIC)           |58142 - Publishing of consumer and business journals and periodicals   |
+|Name                               |Shaan Manoj BHARWANI       |
+|Correspondence address             |Flat 22, Marylebone Road, London, England, NW1 5HE   |
+|Date of birth                      |February 1998     |
+|Appointed on                       |14 June 2019 |
+|Nationality                        |British   |
+|Country of residence               |England |
+|Occupation                         |Analyst   |
+|Role (ACTIVE)                      |Director   |
+
+&nbsp;
 
 ***
+&nbsp;
 
-THE WOKE INVESTOR LTD
-Company number 12145459
+#### Contact us!
 
-Registered office address
-Flat 22 Marylebone Road, London, England, NW1 5HE
+For proposals, inquiries or any other problems contact us as **labs@clast.xyz.**
 
-Company type
-Private limited Company
+#### Disclaimer
 
-Incorporated on
-8 August 2019
+All information shared here is public information, if you have a dillemma with any of it please contact us.
 
-Accounts
-First accounts made up to 31 August 2020 
-due by 8 May 2021
+#### SOURCES:
 
-Confirmation statement
-First statement date 7 August 2020 
-due by 21 August 2020\
+[BITSILK INVESTMENTS LIMITED]({{ site.url }}assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)\Filing history\application-pdf.pdf) (PDF)
+&nbsp;
 
-Nature of business (SIC)
-58142 - Publishing of consumer and business journals and periodicals
+[THE WOKE INVESTOR LTD]({{ site.url }}assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\THEWOKEINVESTOR (FASTBALLER)\application-pdf.pdf) (PDF)
+&nbsp;
 
-Name
-Shaan Manoj BHARWANI
-
-Correspondence address
-Flat 22, Marylebone Road, London, England, NW1 5HE
-
-Date of birth
-February 1998
-
-Appointed on
-8 August 2019
-
-Nationality
-British
-
-Country of residence
-England
-
-Occupation
-Analyst
-
-Role ACTIVE
-Director
-
-***
-
-SOURCES:
+[BITSILK INVESTMENTS LIMITED Companies House]({{ site.url }}assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)) (Archived)
