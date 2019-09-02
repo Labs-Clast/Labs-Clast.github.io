@@ -6,7 +6,11 @@ permalink: /bitsilk
 
 This is an investigation done by the Clast Team about a BTC investment group exit scam known as "Bitsilk Investment group".
 
-Current know approximation of lost BTC is **~2BTC (~20k$).**
+Current know approximation of lost BTC is **~2BTC (~20k$).**  
+&nbsp;
+
+***Update 02/09/2019:*** Image of spreadsheet below shows exact amount.
+![Discord conversation]{{ }}(assets\BITSILK INVESTIGATION\DC PICS\PUBLIC\discord__f_002337__1567029252115.png)
 
 -- Abdos
 
