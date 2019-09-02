@@ -14,9 +14,12 @@ Current know approximation of lost BTC is **~2BTC (~20k$).**
 
 ***
 
+
+
 # Harvested data*
 
 &nbsp;
+
 
 #### Associated people:
 
@@ -32,7 +35,16 @@ FastMoneyBaller:
  - Known as "The Woke Investor" on medium and more
  - Registered the "BITSILK INVESTMENTS"and "The Woke Investor" company (not associated with actual investment group)
 
-***Update 02/09/2019:***  FastMoneyBaller tried to get Adam to become CEO of the investment company, but he didn't give any details or agree.
+***Update 02/09/2019:***  1) FastMoneyBaller tried to get Adam to become CEO of the investment company, but he never gave any details or followed up to the requets.
+&nbsp;
+
+![Discord conversation]{{ }}(assets\BITSILK INVESTIGATION\DC PICS\PRIVATE DM's\pic1.png)
+&nbsp;
+
+2) Adam talking how he is planning to commit tax evasion.
+&nbsp;
+
+![Discord conversation]{{ }}(assets\BITSILK INVESTIGATION\DC PICS\PRIVATE DM's\pic2.png)
 
 &nbsp;
 
@@ -63,10 +75,4 @@ All information shared here is public information, if you have a dillemma with a
 
 #### SOURCES:
 
-[BITSILK INVESTMENTS LIMITED]({{ site.url }}\assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)\Filing history\application-pdf.pdf) (PDF)
-&nbsp;
-
-[THE WOKE INVESTOR LTD]({{ site.url }}\assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\THEWOKEINVESTOR (FASTBALLER)\application-pdf.pdf) (PDF)
-&nbsp;
-
-[BITSILK INVESTMENTS LIMITED Companies House]({{ site.url }}\assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)) (Archived)
+***Update 02/09/2019:*** Removed for privacy reasons till further noitce.
