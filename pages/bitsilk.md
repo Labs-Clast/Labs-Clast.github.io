@@ -35,7 +35,7 @@ FastMoneyBaller:
  - Known as "The Woke Investor" on medium and more
  - Registered the "BITSILK INVESTMENTS"and "The Woke Investor" company (not associated with actual investment group)
 
-***Update 02/09/2019:***  1) FastMoneyBaller tried to get Adam to become CEO of the investment company, but he never gave any details or followed up to the requets.
+***Update 02/09/2019:***  1) FastMoneyBaller tried to get Adam to become CEO of the investment company, but he never gave any details or followed up to the requests.
 &nbsp;
 
 ![Discord conversation]{{ }}(assets\BITSILK INVESTIGATION\DC PICS\PRIVATE DM's\pic1.png)
