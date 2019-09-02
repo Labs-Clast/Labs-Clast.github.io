@@ -12,13 +12,11 @@ This is an investigation done by the Clast Team about a BTC investment group exi
 
 ***
 
-# Harvested data
+# Harvested data*
 
 &nbsp;
 
-#### Suspected persons with role:
-
-&nbsp;
+#### Associated people:
 
 Adam: 
  - Owner bitsilk server
@@ -35,12 +33,14 @@ Possibly:
 (No proof or link)
  - SantiTrading
 
+
+
 &nbsp;
 
 ***
 &nbsp;
 
-#### Associated investment companies registerd in the UK:
+#### Possibly associated investment companies registerd in the UK:
 &nbsp;
 
 ###### BITSILK INVESTMENTS LIMITED
@@ -94,7 +94,10 @@ Possibly:
 
 For proposals, inquiries or any other problems contact us as **labs@clast.xyz.**
 
-#### Disclaimer
+#### Disclaimer*
+
+We do not guarantee that the given names and data are 100% accurate, any information given can change in the future, This is nothing more than a collection of publicly available information.
+&nbsp;
 
 All information shared here is public information, if you have a dillemma with any of it please contact us.
 
