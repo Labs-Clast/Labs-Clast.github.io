@@ -100,10 +100,10 @@ All information shared here is public information, if you have a dillemma with a
 
 #### SOURCES:
 
-[BITSILK INVESTMENTS LIMITED]({{ site.url }}assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)\Filing history\application-pdf.pdf) (PDF)
+[BITSILK INVESTMENTS LIMITED]({{ site.url }}\assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)\Filing history\application-pdf.pdf) (PDF)
 &nbsp;
 
-[THE WOKE INVESTOR LTD]({{ site.url }}assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\THEWOKEINVESTOR (FASTBALLER)\application-pdf.pdf) (PDF)
+[THE WOKE INVESTOR LTD]({{ site.url }}\assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\THEWOKEINVESTOR (FASTBALLER)\application-pdf.pdf) (PDF)
 &nbsp;
 
-[BITSILK INVESTMENTS LIMITED Companies House]({{ site.url }}assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)) (Archived)
+[BITSILK INVESTMENTS LIMITED Companies House]({{ site.url }}\assets\BITSILK INVESTIGATION\COMPANIES HOUSE ARCHIVE\BITSILK (ADAM)) (Archived)
