@@ -23,6 +23,7 @@ Current know approximation of lost BTC is **~2BTC (~20k$).**
 Adam: 
  - Owner bitsilk server
  - Owner investment group
+ - Located in Canada
 
 
 FastMoneyBaller:
