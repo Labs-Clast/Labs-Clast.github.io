@@ -29,7 +29,7 @@ Adam:
  - Located in Canada
 
 
-FastMoneyBaller:
+FastMoneyBaller:  
 (Working together to solve, not actually involved)
  - Special role in DC server
  - Known as "The Woke Investor" on medium and more
